@@ -29,6 +29,9 @@ let
     gnused # needed by ssh-copy-id
     sshpass # used to provide password for ssh-copy-id
     gnutar # used to upload extra-files
+    udftools
+    exfat
+    exfatprogs
   ];
 in
 stdenv.mkDerivation {
