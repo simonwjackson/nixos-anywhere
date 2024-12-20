@@ -15,6 +15,9 @@
 , lib
 , makeWrapper
 , mkShellNoCC
+, udftools
+, exfat
+, exfatprogs
 }:
 let
   runtimeDeps = [
